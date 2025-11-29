@@ -1,0 +1,130 @@
+*{
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #faf0f0fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-link{
+display: flex;
+justify-content: flex-end;
+box-sizing: border-box;
+place-items: center;
+width: 100%;
+background: #3199eed5;
+height: 80px;
+border-radius: 3px;
+}
+
+.nav-link a{
+ font-weight: 500;
+ width: auto;
+text-decoration: none;
+color: white; 
+margin: 18px;
+padding: 0.8rem;
+transition: all 0.3s ease-in-out;
+}
+
+.nav-link a:hover{
+    background-color: #ffffff3b;
+    border-radius: 8px;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+form{
+    position: relative;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    display: flex;
+    place-self: center;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 12px;
+    margin: 40px auto;
+    padding: 28px;
+    min-height: 50vh;
+    max-width: 310px;
+    width: calc(100% - 40px);
+    box-shadow: 0 8px 20px rgba(18,66,120,0.10);
+    overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+form:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 16px 30px rgba(18,66,120,0.14);
+}
+
+
+
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    color:#f4f7fc ;
+    margin-bottom: 20px;
+}
+
+input-field{
+   border: none;
+}
+input{
+    margin: 10px;
+    font-size: 17px;
+    padding: 10px;
+    background: #43b4e0b0;
+    color: white;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid #0634b4;
+    outline: none;
+}
+input::placeholder{
+      transition: 0.3s ease;
+    color:#ebf1f8 ;
+    opacity: 0.9;
+}
+
+input:focus{
+    background-color: #1141c598;
+    border-bottom: 2px solid #C8D6E7;
+    box-shadow: 0 2px 8px rgba(202, 238, 247, 0.2);
+
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color:#246FF1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #0636C7;
+}
+p{
+    margin-top: 9px;
+    color: #f4f7fc;
+    font-weight: bold;
+}
+p a{
+    color: #0634b4;
+}
+p a:hover{
+color: rgba(241, 10, 10, 0.623);
+}
+
